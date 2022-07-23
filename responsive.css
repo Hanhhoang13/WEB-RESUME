@@ -31,6 +31,10 @@
         margin: 30px 0 0 0;
     }
 
+    .main_list_content_item {
+        width: initial;
+    }
+
     .cart__item {
         width: 100%;
     }
@@ -85,9 +89,18 @@
     margin-left: 0px;
     align-items: center;
 }
+.card {
+    padding: 20px;
+}
 
+.main_list_content_item {
+    width: initial;
+}
 .main_list {
     flex-direction: column;
+}
+.main_list--left {
+    margin-right:0;
 }
 
 .main_list--right .main_list_name {
