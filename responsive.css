@@ -53,8 +53,10 @@
     .navbar {
         flex-direction: column;
         transform: scale(0.75);
-        left: -130px;
         right: unset;
+        left: -110px;
+        top: 170px;
+        position: fixed;
     }
 
     .navbar:hover {
@@ -79,31 +81,34 @@
 }
 
 @media (max-width:768px) {
-.sidebar {
-    flex-direction: column;
-    align-items: center;
-}
+    .sidebar {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.sidebar__user {
-    margin-top: 30px;
-    margin-left: 0px;
-    align-items: center;
-}
-.card {
-    padding: 20px;
-}
+    .sidebar__user {
+        margin-top: 30px;
+        margin-left: 0px;
+        align-items: center;
+    }
 
-.main_list_content_item {
-    width: initial;
-}
-.main_list {
-    flex-direction: column;
-}
-.main_list--left {
-    margin-right:0;
-}
+    .card {
+        padding: 20px;
+    }
 
-.main_list--right .main_list_name {
-    margin-top: 30px;
-}
+    .main_list_content_item {
+        width: initial;
+    }
+
+    .main_list {
+        flex-direction: column;
+    }
+
+    .main_list--left {
+        margin-right: 0;
+    }
+
+    .main_list--right .main_list_name {
+        margin-top: 30px;
+    }
 }
