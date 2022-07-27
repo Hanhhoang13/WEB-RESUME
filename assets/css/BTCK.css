@@ -20,10 +20,10 @@
 
 .bg__img {
     background-image: url('https://haycafe.vn/wp-content/uploads/2022/03/background-banner-2D.jpg');
-    height: 200em;
 }
 
 .container {
+    opacity: 1.0;
     font-family: var(--font-poppins);
     color: var(--color-first);
     font-size: var(--font-size-default);
@@ -121,7 +121,7 @@
     height: 20px;
 }
 
-.linkedin:hover {
+.no-drop:hover {
     cursor: no-drop;
 }
 
@@ -303,6 +303,8 @@
     border-radius: 5px;
     margin-left: 30px;
 }
+
+/* Tới đây */
 
 .main_contact {
     margin-top: 30px;

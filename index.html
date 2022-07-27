@@ -13,8 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css phụ.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="./assets/css/Util.css">
+    <link rel="stylesheet" href="./assets/css/Style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 
 <body class="bg__img">
@@ -40,7 +41,7 @@
                         <a href="" class="social__item" target="_blank">
                             <img class="social__icon" src="./assets/icons/INS.svg" alt="Ins">
                         </a>
-                        <a href="" class="social__item linkedin" target="_blank">
+                        <a class="social__item no-drop" target="_blank">
                             <img class="social__icon" src="./assets/icons/linkedin.svg" alt="linkedin">
                         </a>
                     </div>
@@ -60,7 +61,7 @@
                             </div>
                             <div class="cart__item__title">
                                 <div class="cart__item__title--up"> Email </div>
-                                <div class="cart__item__title--down"> Hanhhoang2002@gmail.com </div>
+                                <div class="cart__item__title--down"> hanhhoang2002@gmail.com </div>
                             </div>
                         </div>
                         <div class="cart__item">
@@ -105,7 +106,7 @@
                     <span class="item__title">Work </span>
                 </a>
 
-                <a href="./04_blog.html" class="navbar__item">
+                <a class="navbar__item no-drop">
                     <img class="item__icon" src="./assets/icons/4.svg" alt="">
                     <span class="item__title">Blogs </span>
                 </a>
@@ -115,8 +116,8 @@
                     <span class="item__title">Contact </span>
                 </a>
             </div>
-            <div class="main">
-                <div class="card">
+            <div class="main card">
+                
                     <div class="main_header_title">
                         <span>About Me</span>
                         <span class="main_header_line"></span>
@@ -154,41 +155,45 @@
                     <div class="main_introduce_title">
                         What I do!
                     </div>
-                    <div class="main_introduce_content">
-                        <div class="main_introduce_content_item">
-                            <img class="introduce_item_icon" src="./assets/icons/time-svgrepo-com.svg" alt="">
-                            <div class="introduce_item_job">
-                                <div class="introduce_item_job_name">Timer</div>
-                                <div class="introduce_item_job_description"> Người căn chỉnh thời gian dòng sub gốc hiện
-                                    lên sao cho chính xác</div>
+                    <div class="main_list">
+                        <div class="main_list--left">
+                            <div class="main_list_content_item bg--F2F4FF">
+                                <img class="main__list__img" src="./assets/icons/time-svgrepo-com.svg" alt="">
+                                <div class="introduce_item_job">
+                                    <div class="introduce_item_job_name">Timer</div>
+                                    <div class="introduce_item_job_description"> Người căn chỉnh thời gian dòng sub gốc hiện
+                                        lên sao cho chính xác</div>
+                                </div>
+                            </div>
+                            <div class="main_list_content_item bg--EEF5FA">
+                                <img class="main__list__img"g src="./assets/icons/math-format-professional-svgrepo-com.svg" alt="">
+                                <div class="introduce_item_job">
+                                    <div class="introduce_item_job_name">Typesetter</div>
+                                    <div class="introduce_item_job_description"> Người làm cho hình thức câu chữ giống với
+                                        bản gốc nhất có thể. Thường được gọi tắt là type.</div>
+                                </div>
                             </div>
                         </div>
-                        <div class="main_introduce_content_item">
-                            <img class="introduce_item_icon" src="./assets/icons/translate-svgrepo-com.svg" alt="">
-                            <div class="introduce_item_job">
-                                <div class="introduce_item_job_name">Translator</div>
-                                <div class="introduce_item_job_description"> Người dịch thuật, chuyển ngữ từ ngôn ngữ
-                                    này sang ngôn ngữ khác. Thường được gọi tắt là trans.</div>
+                        <div class="main_list--right">
+                            <div class="main_list_content_item bg--FCF4FF">
+                                <img class="main__list__img" src="./assets/icons/translate-svgrepo-com.svg" alt="">
+                                <div class="introduce_item_job">
+                                    <div class="introduce_item_job_name">Translator</div>
+                                    <div class="introduce_item_job_description"> Người dịch thuật, chuyển ngữ từ ngôn ngữ
+                                        này sang ngôn ngữ khác. Thường được gọi tắt là trans.</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="main_introduce_content_item">
-                            <img class="introduce_item_icon"g src="./assets/icons/math-format-professional-svgrepo-com.svg" alt="">
-                            <div class="introduce_item_job">
-                                <div class="introduce_item_job_name">Typesetter</div>
-                                <div class="introduce_item_job_description"> Người làm cho hình thức câu chữ giống với
-                                    bản gốc nhất có thể. Thường được gọi tắt là type.</div>
-                            </div>
-                        </div>
-                        <div class="main_introduce_content_item">
-                            <img class="introduce_item_icon" src="./assets/icons/setting-svgrepo-com.svg" alt="">
-                            <div class="introduce_item_job">
-                                <div class="introduce_item_job_name">Encode</div>
-                                <div class="introduce_item_job_description"> Vì Aegisub chỉ tạo ra softsub nên cần có người/công đoạn ghép softsub vào video để tạo thành hardsub</div>
+                            <div class="main_list_content_item bg--FFF1FB">
+                                <img class="main__list__img" src="./assets/icons/setting-svgrepo-com.svg" alt="">
+                                <div class="introduce_item_job">
+                                    <div class="introduce_item_job_name">Encode</div>
+                                    <div class="introduce_item_job_description"> Vì Aegisub chỉ tạo ra softsub nên cần có người/công đoạn ghép softsub vào video để tạo thành hardsub</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            
         </div>
     </div>
 </body>

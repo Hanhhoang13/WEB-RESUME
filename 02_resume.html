@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Võ Hồ Hạnh Hoàng</title>
-    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico">
+    <title>Bài tập cuối kỳ</title>
     <link rel="stylesheet" href="BTCK.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css phụ.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="./assets/css/Util.css">
+    <link rel="stylesheet" href="./assets/css/Style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 
 <body class="bg__img">
@@ -33,22 +33,22 @@
                     </div>
                     <div class="sidebar__user__social">
                         <a href="https://www.facebook.com/hanhhanhhoangng/" class="social__item" target="_blank">
-                            <img src="./assets/icons/FB.svg" alt="Facebook">
+                            <img class="social__icon" src="./assets/icons/FB.svg" alt="Facebook">
                         </a>
                         <a href="" class="social__item" target="_blank">
-                            <img src="./assets/icons/Twitter.svg" alt="Twitter">
+                            <img class="social__icon" src="./assets/icons/Twitter.svg" alt="Twitter">
                         </a>
                         <a href="" class="social__item" target="_blank">
-                            <img src="./assets/icons/INS.svg" alt="Ins">
+                            <img class="social__icon" src="./assets/icons/INS.svg" alt="Ins">
                         </a>
-                        <a href="" class="social__item linkedin" target="_blank">
-                            <img src="./assets/icons/linkedin.svg" alt="linkedin">
+                        <a class="social__item no-drop" target="_blank">
+                            <img class="social__icon" src="./assets/icons/linkedin.svg" alt="linkedin">
                         </a>
                     </div>
                     <div class="sidebar__user__cart">
                         <div class="cart__item">
                             <div class="cart__item__icon">
-                                <img class="cart__item__icon__img" src="./assets/icons/phone.svg" alt="">
+                                <img class="cart__item__icon__img" src="./assets/icons/item-account (1).svg" alt="">
                             </div>
                             <div class="cart__item__title">
                                 <div class="cart__item__title--up"> Phone </div>
@@ -57,16 +57,16 @@
                         </div>
                         <div class="cart__item">
                             <div class="cart__item__icon">
-                                <img class="cart__item__icon__img" src="./assets/icons/Email.svg" alt="">
+                                <img class="cart__item__icon__img" src="./assets/icons/item-account (3).svg" alt="">
                             </div>
                             <div class="cart__item__title">
                                 <div class="cart__item__title--up"> Email </div>
-                                <div class="cart__item__title--down"> Hanhhoang2002@gmail.com </div>
+                                <div class="cart__item__title--down"> hanhhoang2002@gmail.com </div>
                             </div>
                         </div>
                         <div class="cart__item">
                             <div class="cart__item__icon">
-                                <img class="cart__item__icon__img" src="./assets/icons/address.svg" alt="">
+                                <img class="cart__item__icon__img" src="./assets/icons/item-account (4).svg" alt="">
                             </div>
                             <div class="cart__item__title">
                                 <div class="cart__item__title--up"> Location </div>
@@ -75,7 +75,7 @@
                         </div>
                         <div class="cart__item">
                             <div class="cart__item__icon">
-                                <img class="cart__item__icon__img" src="./assets/icons/calendar.svg" alt="">
+                                <img class="cart__item__icon__img" src="./assets/icons/item-account (2).svg" alt="">
                             </div>
                             <div class="cart__item__title">
                                 <div class="cart__item__title--up"> Birthday </div>
@@ -84,7 +84,6 @@
                         </div>
                     </div>
                     <div class="sidebar__user__view">
-                        <!-- <img src="./assets/icons/view.svg" class="view--icon"> -->
                         <img src="./assets/icons/view-svgrepo-com.svg" class="view__icon">
                         <div class="view__title"> View CV</div>
                     </div>
@@ -92,14 +91,14 @@
                 </div>
             </div>
             <div class="navbar">
-                <a href="./index.html" class="navbar__item ">
+                <a href="./index.html" class="navbar__item">
                     <img class="item__icon " src="./assets/icons/ (1).svg" alt="">
                     <span class="item__title">About</span>
                 </a>
 
                 <a href="./02_resume.html" class="navbar__item active">
                     <img class="item__icon" src="./assets/icons/2.svg" alt="">
-                    <span class="item__title">Resume</span>
+                    <span class="item__title">Resume </span>
                 </a>
 
                 <a href="./03_portfolio.html" class="navbar__item">
@@ -107,7 +106,7 @@
                     <span class="item__title">Work </span>
                 </a>
 
-                <a href="./04_blog.html" class="navbar__item">
+                <a class="navbar__item no-drop">
                     <img class="item__icon" src="./assets/icons/4.svg" alt="">
                     <span class="item__title">Blogs </span>
                 </a>
@@ -126,25 +125,23 @@
                     <div class="main_list">
                         <div class="main_list--left">
                             <div class="main_list_name">
-                                <div class="main__list__img">
-                                    <img src="./assets/icons/icon education.svg" alt="">
-                                </div>
+                                <img class="main__list__img" src="./assets/icons/icon education.svg" alt="">
                                 <div class="main__list__title">
                                     Education
                                 </div>
                             </div>
                             <div class="main_list_content">
-                                <div class="main_list_content_item bg--FFF4F4">
+                                <div class="main_list_content_item_text bg--FFF4F4">
                                     <div class="item_text--time">2013-2017</div>
                                     <span class="item_text--general">Junior high school student</span>
                                     <span class="item_text--specific">Kim Dong junior high school</span>
                                 </div>
-                                <div class="main_list_content_item bg--EEF5FA">
+                                <div class="main_list_content_item_text bg--EEF5FA">
                                     <div class="item_text--time">2017-2020</div>
                                     <span class="item_text--general">High school student</span>
                                     <span class="item_text--specific">Phan Chau Trinh high School</span>
                                 </div>
-                                <div class="main_list_content_item bg--FCF4FF">
+                                <div class="main_list_content_item_text bg--FCF4FF">
                                     <div class="item_text--time">2020-present</div>
                                     <span class="item_text--general">Management Information System </span>
                                     <span class="item_text--specific">The University of Danang - University of
@@ -154,20 +151,18 @@
                         </div>
                         <div class="main_list--right">
                             <div class="main_list_name">
-                                <div class="main__list__img">
-                                    <img src="./assets/icons/icon experience.svg" alt="">
-                                </div>
+                                <img class="main__list__img" src="./assets/icons/icon experience.svg" alt="">
                                 <div class="main__list__title">
                                     Experience
                                 </div>
                             </div>
                             <div class="main_list_content">
-                                <div class="main_list_content_item bg--FFF1FB">
+                                <div class="main_list_content_item_text bg--FFF1FB">
                                     <div class="item_text--time">11.2017 - 08.2018</div>
                                     <div class="item_text--general">Updator</div>
                                     <div class="item_text--specific">TF Gia Toc fanpage</div>
                                 </div>
-                                <div class="main_list_content_item bg--F2F4FF">
+                                <div class="main_list_content_item_text bg--F2F4FF">
                                     <div class="item_text--time">5.2018 - present</div>
                                     <div class="item_text--general">Timer</div>
                                     <div class="item_text--specific">CocoMango Subteam</div>
@@ -175,7 +170,7 @@
                                     <div class="item_text--specific">Vườn Cam Tường Lâm</div>
                                     <div class="item_text--specific">Subteam 404</div>
                                 </div>
-                                <div class="main_list_content_item bg--FCF9F2">
+                                <div class="main_list_content_item_text bg--FCF9F2">
                                     <div class="item_text--time">6.2021 - present</div>
                                     <div class="item_text--general">Typesetter</div>
                                     <div class="item_text--specific">Nabi Planet</div>

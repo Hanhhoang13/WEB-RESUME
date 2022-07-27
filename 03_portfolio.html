@@ -9,18 +9,20 @@
     <link rel="stylesheet" href="BTCK.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/Util.css">
+    <link rel="stylesheet" href="./assets/css/Style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 
 <body class="bg__img">
     <div class="container">
         <div class="wrapper">
             <div class="sidebar">
-                <img class="sidebar__avatar" src="https://demoda.vn/wp-content/uploads/2022/03/avatar-nu-1.jpg"
+                <img class="sidebar__avatar" src="https://scontent.fdad4-1.fna.fbcdn.net/v/t39.30808-6/277762859_3109064909411275_9117745254041548174_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=HFClfE9Fu9MAX_L0IPr&_nc_ht=scontent.fdad4-1.fna&oh=00_AT_5zp5psM448b5y5_wsTeFdbk9S6aITPUDfkbVBAkEdkw&oe=62E2375D"
                     alt="Avatar">
                 <div class="sidebar__user">
                     <div class="sidebar__user__name">
@@ -31,22 +33,22 @@
                     </div>
                     <div class="sidebar__user__social">
                         <a href="https://www.facebook.com/hanhhanhhoangng/" class="social__item" target="_blank">
-                            <img src="./assets/icons/FB.svg" alt="Facebook">
+                            <img class="social__icon" src="./assets/icons/FB.svg" alt="Facebook">
                         </a>
                         <a href="" class="social__item" target="_blank">
-                            <img src="./assets/icons/Twitter.svg" alt="Twitter">
+                            <img class="social__icon" src="./assets/icons/Twitter.svg" alt="Twitter">
                         </a>
                         <a href="" class="social__item" target="_blank">
-                            <img src="./assets/icons/INS.svg" alt="Ins">
+                            <img class="social__icon" src="./assets/icons/INS.svg" alt="Ins">
                         </a>
-                        <a href="" class="social__item linkedin" target="_blank">
-                            <img src="./assets/icons/linkedin.svg" alt="linkedin">
+                        <a class="social__item no-drop" target="_blank">
+                            <img class="social__icon" src="./assets/icons/linkedin.svg" alt="linkedin">
                         </a>
                     </div>
                     <div class="sidebar__user__cart">
                         <div class="cart__item">
                             <div class="cart__item__icon">
-                                <img class="cart__item__icon__img" src="./assets/icons/phone.svg" alt="">
+                                <img class="cart__item__icon__img" src="./assets/icons/item-account (1).svg" alt="">
                             </div>
                             <div class="cart__item__title">
                                 <div class="cart__item__title--up"> Phone </div>
@@ -55,16 +57,16 @@
                         </div>
                         <div class="cart__item">
                             <div class="cart__item__icon">
-                                <img class="cart__item__icon__img" src="./assets/icons/Email.svg" alt="">
+                                <img class="cart__item__icon__img" src="./assets/icons/item-account (3).svg" alt="">
                             </div>
                             <div class="cart__item__title">
                                 <div class="cart__item__title--up"> Email </div>
-                                <div class="cart__item__title--down"> Hanhhoang2002@gmail.com </div>
+                                <div class="cart__item__title--down"> hanhhoang2002@gmail.com </div>
                             </div>
                         </div>
                         <div class="cart__item">
                             <div class="cart__item__icon">
-                                <img class="cart__item__icon__img" src="./assets/icons/address.svg" alt="">
+                                <img class="cart__item__icon__img" src="./assets/icons/item-account (4).svg" alt="">
                             </div>
                             <div class="cart__item__title">
                                 <div class="cart__item__title--up"> Location </div>
@@ -73,7 +75,7 @@
                         </div>
                         <div class="cart__item">
                             <div class="cart__item__icon">
-                                <img class="cart__item__icon__img" src="./assets/icons/calendar.svg" alt="">
+                                <img class="cart__item__icon__img" src="./assets/icons/item-account (2).svg" alt="">
                             </div>
                             <div class="cart__item__title">
                                 <div class="cart__item__title--up"> Birthday </div>
@@ -104,7 +106,7 @@
                     <span class="item__title">Work </span>
                 </a>
 
-                <a href="./04_blog.html" class="navbar__item">
+                <a class="navbar__item no-drop">
                     <img class="item__icon" src="./assets/icons/4.svg" alt="">
                     <span class="item__title">Blogs </span>
                 </a>
@@ -114,9 +116,141 @@
                     <span class="item__title">Contact </span>
                 </a>
             </div>
-
+            <div class="main card">
+                <div class="main_header_title">
+                    <span>Work</span>
+                    <span class="main_header_line"></span>
+                </div>
+                <div class="wrapper__work" id="slideshowText">
+                    <div class="active">
+                        <div class="main_list_name">
+                            <img class="main__list__img" src="./assets/icons/time-svgrepo-com.svg" alt="">
+                            <div class="main__list__title">
+                                Time
+                            </div>
+                        </div>
+                        <div class="main_list">
+                            <div class="main_list--left">
+                                <div class="main_list_content">
+                                    <div class="work_item_1 bg--FCF9F2">
+                                        <div class="img1">
+                                            <img src="	https://i.ytimg.com/vi/mfr0pR7AwYE/maxresdefault.jpg" alt="">
+                                            <h2>Time audio</h2>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Time depends on what you are hearing</h4>
+                                            <a href="https://www.youtube.com/watch?v=mfr0pR7AwYE&t=1739s" target="_blank">Watch Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="work_item_1 bg--FCF9F2">
+                                        <div class="img1">
+                                            <img src="https://i.ytimg.com/vi/pvTF7aP3l0g/maxresdefault.jpg" alt="">
+                                            <h2>Time kara</h2>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Listen and define each word of sentence</h4>
+                                            <a href="https://www.youtube.com/watch?v=mfr0pR7AwYE&t=1739s" target="_blank">Watch Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main_list--right">
+                                <div class="main_list_content">
+                                    <div class="work_item_1 bg--FCF9F2">
+                                        <div class="img1">
+                                            <img src="https://i.ytimg.com/vi/PSK8M_YPCio/maxresdefault.jpg" alt="">
+                                            <h2>Time frame</h2>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Time depends on what you are seeing</h4>
+                                            <a href="https://www.youtube.com/watch?v=mfr0pR7AwYE&t=1739s" target="_blank">Watch Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="main_list_name">
+                            <img class="main__list__img" src="./assets/icons/time-svgrepo-com.svg" alt="">
+                            <div class="main__list__title">
+                                Type
+                            </div>
+                        </div>
+                        <div class="main_list">
+                            <div class="main_list--left">
+                                <div class="main_list_content">
+                                    <div class="work_item_1 bg--FCF9F2">
+                                        <div class="img1">
+                                            <img src="https://i.ytimg.com/vi/UnTlc8X3ftg/maxresdefault.jpg" alt="">
+                                            <h2>Type basic</h2>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Type depends on what you are seeing</h4>
+                                            <a href="https://www.youtube.com/watch?v=mfr0pR7AwYE&t=1739s" target="_blank">Watch Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="work_item_1 bg--FCF9F2">
+                                        <div class="img1">
+                                            <img src="https://i.ytimg.com/vi/jlOycCbargA/maxresdefault.jpg" alt="">
+                                            <h2>Type effect</h2>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Type song that using codes to make effect</h4>
+                                            <a href="https://www.youtube.com/watch?v=mfr0pR7AwYE&t=1739s" target="_blank">Watch Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main_list--right">
+                                <div class="main_list_content">
+                                    <div class="work_item_1 bg--FCF9F2">
+                                        <div class="img1">
+                                            <img src="https://i.ytimg.com/vi/eBrVL-mDqwM/hqdefault.jpg" alt="">
+                                            <h2>Type advance</h2>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Type that using tools</h4>
+                                            <a href="https://www.youtube.com/watch?v=mfr0pR7AwYE&t=1739s" target="_blank">Watch Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="icons">
+                    <ul class="controls">
+                        <li><a href=""><img src="./assets/icons/caret-left-svgrepo-com.svg" onclick="prevSlideText();"></a></li>
+                        <li><a href=""><img src="./assets/icons/caret-right-svgrepo-com.svg" onclick="nextSlideText();"></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
+    <script type="text/javascript">
+        var slideshowText = document.getElementById('slideshowText');
+        var slidesText = slideshowText.getElementsByTagName('div');
+        var index = 0;
+
+        function nextSlideText(){
+            slidesText[index].classList.remove('active');
+            index = (index + 1) % slidesText.length;
+            slidesText[index].classList.add('active');
+        }
+        function prevSlideText(){
+            slidesText[index].classList.remove('active');
+            index = (index - 1 + slidesText.length) % slidesText.length;
+            slidesText[index].classList.add('active');
+        }
+    </script>
+
 </body>
 
 </html>
+                            
+                            
+                            
+                            
+                            
+                            

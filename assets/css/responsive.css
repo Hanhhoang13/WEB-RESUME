@@ -31,6 +31,10 @@
         margin: 30px 0 0 0;
     }
 
+    .cart__item__title--down {
+        width: unset;
+    }
+
     .main_list_content_item {
         width: initial;
     }
@@ -92,10 +96,6 @@
         align-items: center;
     }
 
-    .card {
-        padding: 20px;
-    }
-
     .main_list_content_item {
         width: initial;
     }
@@ -106,6 +106,7 @@
 
     .main_list--left {
         margin-right: 0;
+        margin-bottom: 20px;
     }
 
     .main_list--right .main_list_name {
