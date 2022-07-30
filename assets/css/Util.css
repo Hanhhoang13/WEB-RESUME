@@ -14,11 +14,12 @@
     --color-third: #EDF2F2;
 
     
-    --color-linear: linear-gradient(90deg, #1877f2 0%, #43d1be 100%);
+    /* --color-linear: linear-gradient(90deg, #1877f2 0%, #43d1be 100%); */
+    --color-linear: linear-gradient(90deg, #e9b442 0%,#eec142 50%, #f5cf46 100%);
 }
 
 .bg__img {
-    background-image: url('https://haycafe.vn/wp-content/uploads/2022/03/background-banner-2D.jpg');
+    background-image: url(../img/final.png);
 }
 
 .container {
@@ -202,11 +203,12 @@
 .view__icon {
     width: 22px;
     height: 22px;
-    filter: brightness(0) invert(1)
+    filter: brightness(0);
 }
 
 .view__title {
-    color: white;
+    color: var(--color-first);
+    font-weight: 500;
     margin-left: 10px;
 }
 
@@ -244,7 +246,7 @@
 
 .navbar__item.active {
     background: var(--color-linear);
-    color: white;
+    color: var(--color-first);
 }
 
 .item__icon {
@@ -262,7 +264,8 @@
 
 .navbar__item.active .item__icon,
 .navbar__item.active .item__title {
-    filter: brightness(0) invert(1);
+    filter: brightness(0);
+    font-weight: 500;
 }
 
 .main {

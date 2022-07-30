@@ -234,6 +234,10 @@
     max-width: 100%;
     margin: 0;
     transition: 0.5s ease-in-out;
+} 
+
+.work_item_1:hover {
+    height: 500px;
 }
 
 .work_item_1:hover .img1 img {
@@ -241,16 +245,29 @@
 }
 
 .work_item_1 .img1 h2 {
+    position: absolute;
+    top: 95%;
     color: black;
     padding: 0;
     margin: 20px 0;
 }
 
+.work_item_1 .img1 h4 {
+    position: absolute;
+    top: 110%;
+    color: black;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.work_item_1:hover .img1 h4 {
+    opacity: 0;
+    visibility: hidden;
+}
+
 .content {
     display: flex;
-    position: absolute; 
-    flex:1;
-    top: 70%;
+    flex: 1;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -259,34 +276,23 @@
     opacity: 0;
     visibility: hidden;
     padding-top: 0;
-    margin-top: 0;
-}
-
-.work_item_1:hover .content {
-    opacity: 1;
-    display:flex;
-    position: absolute;
-    visibility: visible;
-    transform: translateY(50px);
-    top: 70%;
-    flex: 1;
+    margin:0;
 }
 
 .content h4 {
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
     margin: 0;
     font-weight: 300;
-
 }
 
 .content a {
-    position: relative;
-
+    margin-top: 0px;
     display: inline-block;
-    padding: 12px 30px;
+    padding: 2px 30px;
     background: white;
     border-radius: 40px;
     font-weight: 600;
@@ -295,6 +301,34 @@
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
 }
+
+.work_item_1:hover .content {
+    opacity: 1;
+    display:flex;
+    visibility: visible;
+    transform: translateY(50px);
+    flex: 1;
+    margin-bottom: 50px;
+}
+
+.work_item_1:hover .content a {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 12px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .icons {
     display: flex;
@@ -383,6 +417,142 @@
 
 
 
+#slider {
+    margin: 0 auto;
+    width: 730px;
+    max-width: 100%;
+
+}
+
+#slider input[type=radio] {
+    display: none;
+}
+
+#slider label {
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+#slides {
+    padding: 20px;
+    border: 3px solid #000;
+    position: relative;
+    z-index: 1;
+}
+
+#overflow {
+    width: 100%;
+    overflow: hidden;
+}
+
+#slide1:checked ~ #slides .inner {
+    margin-left: 0;
+}
+
+#slide2:checked ~ #slides .inner {
+    margin-left: -100%;
+}
+
+#slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 700px;
+}
+
+#slides .slide {
+    width: 25%;
+    float: left;
+    display: block;
+    height: 100%;
+    color: #fff;
+}
+
+#slides .slide_1 {
+    background: #000;
+}
+
+#slides .slide_2 {
+    background: #000;
+}
+
+.slide_content {
+    padding: 10px;
+
+}
+
+.controls {
+    margin: -130px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+}
+
+.controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+}
+
+#controls label:hover {
+    opacity: 1;
+}
+
+#slide1:checked ~ #controls label:nth-child(2), #slide2:checked ~ #controls label:nth-child(1){
+    background: url(https://www.svgrepo.com/show/332012/caret-right.svg) no-repeat;
+    float: right;
+    margin: 0 -5px 0 0;
+    display: block;
+}
+
+#slide1:checked ~ #controls label:nth-last-child(2), #slide2:checked ~ #controls label:nth-last-child(1){
+    background: url(https://www.svgrepo.com/show/332008/caret-left.svg) no-repeat;
+    float: right;
+    margin: 0 0 0 -5px;
+    display: block;
+}
+
+#bullets {
+    margin: 100px 0 0;
+    text-align: center;
+}
+
+#bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #ccc;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -424,27 +594,27 @@
 
 
 .bg--FFF4F4 {
-    background-color: #F7E1E3;
+    background-color: #F1AF00;
 }
 
 .bg--EEF5FA {
-    background-color: #FAEAEB;
+    background-color: #F3C246;
 }
 
 .bg--FCF4FF {
-    background-color: #FAF0F0;
+    background-color: #F9CC76;
 }
 
 .bg--FFF1FB {
-    background-color: #F5E4DC;
+    background-color: #FCE0A6;
 }
 
 .bg--F2F4FF {
-    background-color: #F5CAD9;
+    background-color: #FEEBD0;
 }
 
 .bg--FCF9F2 {
-    background-color: #F5E4DC;
+    background-color: #FDE2CA;
 }
 
 .margin_bottom_10 {
