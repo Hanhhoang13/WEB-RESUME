@@ -1,57 +1,57 @@
-.main_contact {
+.main__contact {
     margin-top: 30px;
     background-color: var(--bg-second);
     border-radius: 20px;
 }
 
-.main_contact_description {
+.main__contact__description {
     font-size: 26px;
 }
 
-.main_contact_description>span {
+.main__contact__description>span {
     font-weight: 600;
 }
 
-.main_contact_request {
+.main__contact__request {
     margin: 40px 0;
 
 }
 
-.main_contact_request_item {
+.main__contact__request__item {
     margin-bottom: 60px;
 }
 
-.main_contact_request_item:last-child {
+.main__contact__request__item:last-child {
     margin-bottom: 0px;
 }
 
-.contact_request_item_text {
+.contact__request__item__text {
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;
     margin-bottom: 20px;
 }
 
-.contact_request_item_line {
+.contact__request__item__line {
     max-width: 610px;
     background-color: #B5B5B5;
     border-radius: 6px;
     border: 1px solid #B5B5B5;
 }
 
-.main_contact_button {
+.main__contact__button {
     padding: 12px 34px;
     width: fit-content;
     border: 2px solid #44566C;
     border-radius: 12px;
 }
 
-.main_contact_button:hover {
+.main__contact__button:hover {
     background: var(--color-linear);
     color: white;
 }
 
-.main_header_content {
+.main__header__content {
     max-width: 676px;
     margin-right: 54px;
     margin-bottom: 20px;
@@ -59,33 +59,31 @@
     color: var(--color-second);
 }
 
-.main_header_content--1 {
+.main__header__content--1 {
     display: flex;
     flex-direction: row;
 }
 
-.main_header_content:last-child {
+.main__header__content:last-child {
     margin-bottom: 0px;
 }
 
-.main_introduce_title {
+.main__introduce__title {
     font-weight: 500;
     font-size: 28px;
     line-height: 42px;
     margin-bottom: 30px;
 }
 
-.main_introduce_content {
+.main__introduce__content {
     display: flex;
     flex-wrap: wrap;
-    /* gap: 30px; */
     flex: 1;
-    /* justify-content:space-between; */
     box-sizing: border-box;
 
 }
 
-.main_introduce_content_item {
+.main__introduce__content__item {
     display: flex;
     background-color: yellow;
     padding: 20px;
@@ -96,49 +94,49 @@
     margin-right: 10px;
 }
 
-.introduce_item_icon {
+.introduce__item__icon {
     margin-right: 20px;
     height: 40px;
 }
 
-.introduce_item_job {
+.introduce__item__job {
     /* text-align: left; */
     display: flex;
     flex-direction: column;
 }
 
-.introduce_item_job_name {
+.introduce__item__job__name {
     font-weight: 500;
     font-size: 22px;
     line-height: 33px;
 }
 
-.introduce_item_job_description {
+.introduce__item__job__description {
     margin-top: 10px;
     line-height: 30px;
     color: var(--color-second)
 }
 
-.item_text--time {
+.item__text--time {
     margin: 0px;
 }
 
-.item_text--general {
+.item__text--general {
     font-size: 18px;
 }
 
-.item_text--general,
-.item_text--specific {
+.item__text--general,
+.item__text--specific {
     display: inline;
 }
 
-.item_text--time,
-.item_text--specific {
+.item__text--time,
+.item__text--specific {
     color: var(--color-second);
     font-size: 14px;
 }
 
-.main_list_content_item--skill {
+.main__list__content__item--skill {
     flex: 1;
     margin-top: 30px;
     width: 100%;
@@ -146,11 +144,11 @@
     display: flex;
 }
 
-.main_list_content_item--skill:first-child {
+.main__list__content__item--skill:first-child {
     margin-top: 0px;
 }
 
-.item_text {
+.item__text {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -158,7 +156,7 @@
     line-height: 24px;
 }
 
-.item_bar {
+.item__bar {
     width: 100%;
 }
 
@@ -173,15 +171,7 @@
     width: fit-content;
 }
 
-/* .wrapper__work div {
-    display: none;
-}
-
-.wrapper__work div.active {
-    display: initial;
-} */
-
-.work_item {
+.work__item {
     padding: 20px;
     border-radius: 12px;
     margin-bottom: 20px;
@@ -190,18 +180,17 @@
     transition: .25s;
 }
 
-.work_item:last-child {
+.work__item:last-child {
     margin-bottom: 0px;
 }
 
-.work_item_1 > * {
+.work__item__1 > * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-
 }
 
-.work_item_1 {
+.work__item__1 {
     position: relative;
     height: auto;
     margin-bottom: 20px;
@@ -216,9 +205,7 @@
     backdrop-filter: blur(15px);
 }
 
-
-
-.work_item_1 .img1 {
+.work__item__1 .img1 {
     position: relative;
     display: flex;
     justify-content: center;
@@ -229,22 +216,22 @@
     transition: 0.5s ease-in-out;
 }
 
-.work_item_1 .img1 img {
+.work__item__1 .img1 img {
     border-radius: 16px;
     max-width: 100%;
     margin: 0;
     transition: 0.5s ease-in-out;
 } 
 
-.work_item_1:hover {
+.work__item__1:hover {
     height: 500px;
 }
 
-.work_item_1:hover .img1 img {
+.work__item__1:hover .img1 img {
     margin: 0px;
 }
 
-.work_item_1 .img1 h2 {
+.work__item__1 .img1 h2 {
     position: absolute;
     top: 95%;
     color: black;
@@ -252,7 +239,7 @@
     margin: 20px 0;
 }
 
-.work_item_1 .img1 h4 {
+.work__item__1 .img1 h4 {
     position: absolute;
     top: 110%;
     color: black;
@@ -260,7 +247,7 @@
     margin: 20px 0;
 }
 
-.work_item_1:hover .img1 h4 {
+.work__item__1:hover .img1 h4 {
     opacity: 0;
     visibility: hidden;
 }
@@ -302,7 +289,7 @@
     text-transform: uppercase;
 }
 
-.work_item_1:hover .content {
+.work__item__1:hover .content {
     opacity: 1;
     display:flex;
     visibility: visible;
@@ -311,56 +298,13 @@
     margin-bottom: 50px;
 }
 
-.work_item_1:hover .content a {
+.work__item__1:hover .content a {
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 12px 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.icons {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding-left: 20px;
-}
-
-.icons .controls {
-    position: relative;
-    display: flex;
-}
-
-.icons .controls li {
-    list-style: none;
-    margin-left: 20px;
-    cursor:pointer;
-}
-
-.icons .controls li img {
-    height: 30px;
-    background: red;
-    padding: 15px;
-    border-radius: 50%;
-    background: rgb(255, 255, 255, 0.05);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-}
-.icons .controls li:hover {
-    opacity: 0.5;
-}
-
-.clients__title {
+.organization__title {
     font-size: 26px;
     font-weight: 400;
     margin-left: 20px;
@@ -369,217 +313,30 @@
     justify-content: center;
 }
 
-.clients__item {
+.organization__item {
     margin-top: 20px;
     display: flex;
     flex:1;
     flex-direction: row;
     justify-content: center;
-
 }
 
-.clients__item img {
+.organization__item img {
     height: 85px;
     margin-right: 50px;
 }
 
-.clients__item img:last-child {
+.organization__item img:last-child {
     margin-right: 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#slider {
-    margin: 0 auto;
-    width: 730px;
-    max-width: 100%;
-
-}
-
-#slider input[type=radio] {
-    display: none;
-}
-
-#slider label {
-    cursor: pointer;
-    text-decoration: none;
-
-}
-
-#slides {
-    padding: 20px;
-    border: 3px solid #000;
-    position: relative;
-    z-index: 1;
-}
-
-#overflow {
-    width: 100%;
-    overflow: hidden;
-}
-
-#slide1:checked ~ #slides .inner {
-    margin-left: 0;
-}
-
-#slide2:checked ~ #slides .inner {
-    margin-left: -100%;
-}
-
-#slides .inner {
-    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-    width: 400%;
-    line-height: 0;
-    height: 700px;
-}
-
-#slides .slide {
-    width: 25%;
-    float: left;
-    display: block;
-    height: 100%;
-    color: #fff;
-}
-
-#slides .slide_1 {
-    background: #000;
-}
-
-#slides .slide_2 {
-    background: #000;
-}
-
-.slide_content {
-    padding: 10px;
-
-}
-
-.controls {
-    margin: -130px 0 0 0;
-    width: 100%;
-    height: 50px;
-    z-index: 3;
-    position: relative;
-}
-
-.controls label {
-    transition: opacity 0.2s ease-out;
-    display: none;
-    width: 50px;
-    height: 50px;
-    opacity: .4;
-}
-
-#controls label:hover {
-    opacity: 1;
-}
-
-#slide1:checked ~ #controls label:nth-child(2), #slide2:checked ~ #controls label:nth-child(1){
-    background: url(https://www.svgrepo.com/show/332012/caret-right.svg) no-repeat;
-    float: right;
-    margin: 0 -5px 0 0;
-    display: block;
-}
-
-#slide1:checked ~ #controls label:nth-last-child(2), #slide2:checked ~ #controls label:nth-last-child(1){
-    background: url(https://www.svgrepo.com/show/332008/caret-left.svg) no-repeat;
-    float: right;
-    margin: 0 0 0 -5px;
-    display: block;
-}
-
-#bullets {
-    margin: 100px 0 0;
-    text-align: center;
-}
-
-#bullets label {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    background: #ccc;
-    margin: 0 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.work_img {
+.work__img {
     width: 100%;
     border-radius: 16px;
     margin: 0px;
 }
 
-.work_text {
+.work__text {
     box-sizing: border-box;
     margin: 0px;
     font-size: 20px;
@@ -590,8 +347,6 @@
     width: 100%;
     display: flex;
 }
-
-
 
 .bg--FFF4F4 {
     background-color: #F1AF00;
@@ -617,6 +372,6 @@
     background-color: #FDE2CA;
 }
 
-.margin_bottom_10 {
+.margin__bottom__10 {
     margin-bottom: 10px;
 }

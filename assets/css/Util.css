@@ -12,9 +12,6 @@
     --color-first: #000000;
     --color-second: #44566C;
     --color-third: #EDF2F2;
-
-    
-    /* --color-linear: linear-gradient(90deg, #1877f2 0%, #43d1be 100%); */
     --color-linear: linear-gradient(90deg, #e9b442 0%,#eec142 50%, #f5cf46 100%);
 }
 
@@ -200,6 +197,10 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
 }
 
+.sidebar__user__view:hover {
+    cursor: pointer;
+}
+
 .view__icon {
     width: 22px;
     height: 22px;
@@ -272,28 +273,24 @@
     background-color: var(--bg-first);
     border-radius: 20px;
     margin: 184px 0 0 40px;
-
 }
 
 .card {
     padding: 60px;
 }
 
-.main_header {}
-
-.main_header_title {
+.main__header__title {
     font-family: var(--font-roboto);
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 53px;
-
     margin-bottom: 30px;
     display: flex;
     align-items: center;
 }
 
-.main_header_line {
+.main__header__line {
     width: 200px;
     height: 5px;
     display: inline-block;
@@ -302,23 +299,23 @@
     margin-left: 30px;
 }
 
-.main_list {
+.main__list {
     display: flex;
     justify-content: space-between;
 }
 
-.main_list--left {
+.main__list--left {
     margin-right: 30px;
     flex: 1;
 }
 
-.main_list--right {
+.main__list--right {
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
-.main_list_name {
+.main__list__name {
     margin-bottom: 20px;
     display: flex;
 }
@@ -334,12 +331,12 @@
     font-weight: 500;
 }
 
-.main_list_content {
+.main__list__content {
     display: flex;
     flex-direction: column;
 }
 
-.main_list_content_item {
+.main__list__content__item {
     display: inline-flex;
     flex-direction: row;
     padding: 15px 10px 15px 20px;
@@ -348,16 +345,16 @@
     margin-bottom: 20px;
 }
 
-.main_list_content_item:last-child {
+.main__list__content__item:last-child {
     margin-bottom: 0px;
 }
 
-.main_list_content_img {
+.main__list__content__img {
     margin-right: 10px;
     height: 30px;
 }
 
-.main_list_content_item_text {
+.main__list__content__item__text {
     display: inline-flex;
     flex-direction: column;
     padding: 15px 10px 15px 20px;
@@ -366,11 +363,11 @@
     margin-bottom: 20px;
 }
 
-.main_list_content_item_text:last-child {
+.main__list__content__item_text:last-child {
     margin-bottom: 0px;
 }
 
-.main_footer {
+.main__footer {
     display: flex;
     flex: 0;
     color: var(--color-second);
@@ -382,7 +379,7 @@
     background-color: var(--bg-grey);
 }
 
-.main_footer-bg-grey {
+.main__footer-bg-grey {
     display: flex;
     flex: 0;
     color: var(--color-second);
