@@ -40,7 +40,7 @@
     display: flex;
 }
 
-.custom-sidebar {
+.sidebar {
     position: relative;
     width: 400px;
     height: fit-content;
@@ -48,7 +48,7 @@
     border-radius: 20px;
 }
 
-.custom-sidebar__avatar {
+.sidebar__avatar {
     position: absolute;
     width: 240px;
     height: 240px;
@@ -59,7 +59,7 @@
     filter: drop-shadow(0px 10px 22px rgba(0, 0, 0, 0.1));
 }
 
-.custom-sidebar__user {
+.sidebar__user {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -67,7 +67,7 @@
     margin-top: 140px;
 }
 
-.custom-sidebar__user__name {
+.sidebar__user__name {
     text-align: center;
     font-family: var(--font-roboto);
     font-weight: 500;
@@ -77,7 +77,7 @@
     color: var(--color-first)
 }
 
-.custom-sidebar__user__occupation {
+.sidebar__user__occupation {
     width: fit-content;
     padding: 5px 20px;
     margin-top: 15px;
@@ -85,7 +85,7 @@
     background-color: var(--bg-second);
 }
 
-.custom-sidebar__user__social {
+.sidebar__user__social {
     display: flex;
     margin-top: 20px;
     flex: 1;
@@ -119,7 +119,7 @@
     cursor: no-drop;
 }
 
-.custom-sidebar__user__cart {
+.sidebar__user__cart {
     flex: 1;
     padding: 30px;
     margin: 30px 30px 0 30px;
@@ -186,7 +186,7 @@
     line-height: 24px;
 }
 
-.custom-sidebar__user__view {
+.sidebar__user__view {
     margin-top: 30px;
     color: var(--color-linear);
     border-radius: 10px;
@@ -197,7 +197,7 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
 }
 
-.custom-sidebar__user__view:hover {
+.sidebar__user__view:hover {
     cursor: pointer;
 }
 
@@ -213,7 +213,7 @@
     margin-left: 10px;
 }
 
-.custom-navbar {
+.navbar {
     background-color: var(--bg-first);
     position: absolute;
     top: 0;
@@ -223,7 +223,7 @@
     border-radius: 16px;
 }
 
-.custom-navbar__item {
+.navbar__item {
     width: 84px;
     height: 84px;
     background-color: var(--bg-second);
@@ -236,15 +236,15 @@
     border-radius: 12px;
 }
 
-.custom-navbar__item:last-child {
+.navbar__item:last-child {
     margin-right: 0px;
 }
 
-.custom-navbar__item:hover {
+.navbar__item:hover {
     background: #E3E3E3;
 }
 
-.custom-navbar__item.active {
+.navbar__item.active {
     background: var(--color-linear);
     color: var(--color-first);
 }
@@ -262,8 +262,8 @@
     font-weight: 500;
 }
 
-.custom-navbar__item.active .item__icon,
-.custom-navbar__item.active .item__title {
+.navbar__item.active .item__icon,
+.navbar__item.active .item__title {
     filter: brightness(0);
     font-weight: 500;
 }
