@@ -169,6 +169,7 @@
     background: #EDF2F2;
     border-radius: 8px;
     width: fit-content;
+    height: fit-content;
 }
 
 .work__item {
@@ -200,6 +201,7 @@
     align-items: center;
     flex-direction: column;
     border-radius: 16px;
+    height: 500px;
     background: rgb(255, 255, 255, 0.05);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(15px);
@@ -213,55 +215,41 @@
     flex-direction: column;
     padding: 20px;
     padding-bottom: 0px;
-    transition: 0.5s ease-in-out;
+    height: 380px;
 }
 
 .work__item__1 .img1 img {
     border-radius: 16px;
     max-width: 100%;
     margin: 0;
-    transition: 0.5s ease-in-out;
 } 
 
-.work__item__1:hover {
-    height: 500px;
-}
-
-.work__item__1:hover .img1 img {
-    margin: 0px;
-}
 
 .work__item__1 .img1 h2 {
-    position: absolute;
-    top: 95%;
+    position: relative;
+    /* top: 95%; */
     color: black;
     padding: 0;
     margin: 20px 0;
 }
 
 .work__item__1 .img1 h4 {
-    position: absolute;
+    position: relative;
     top: 110%;
     color: black;
     padding: 0;
     margin: 20px 0;
 }
 
-.work__item__1:hover .img1 h4 {
-    opacity: 0;
-    visibility: hidden;
-}
 
 .content {
     display: flex;
+    position: absolute;
     flex: 1;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
-    transition: 0.5s ease-in-out;
-    opacity: 0;
-    visibility: hidden;
     padding-top: 0;
     margin:0;
 }
@@ -277,9 +265,10 @@
 }
 
 .content a {
-    margin-top: 0px;
+    margin-top: 10px;
     display: inline-block;
-    padding: 2px 30px;
+    margin-bottom: 20px;
+    padding: 12px 30px;
     background: white;
     border-radius: 40px;
     font-weight: 600;
@@ -289,20 +278,6 @@
     text-transform: uppercase;
 }
 
-.work__item__1:hover .content {
-    opacity: 1;
-    display:flex;
-    visibility: visible;
-    transform: translateY(50px);
-    flex: 1;
-    margin-bottom: 50px;
-}
-
-.work__item__1:hover .content a {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 12px 30px;
-}
 
 .organization__title {
     font-size: 26px;
@@ -370,6 +345,13 @@
 
 .bg--FCF9F2 {
     background-color: #FDE2CA;
+}
+
+.bg--FCF9F2 {
+    background-color: #FDE2CA;
+}
+.bg--white {
+    background-color: white;
 }
 
 .margin__bottom__10 {
